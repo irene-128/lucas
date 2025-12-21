@@ -48,8 +48,8 @@ export function DialogueBox({body, click, setClick, numDialogues}: DialogueBoxPr
       fontFamily: "'Jersey 10', consolas",
       whiteSpace: "pre-line",
       textAlign: "left",
-      lineHeight:"1.7",
-      fontSize: "33px",
+      lineHeight:"1.5",
+      fontSize: "30px",
       color: "rgb(45, 19, 4)",
     //   backgroundColor:"red",
     }}
