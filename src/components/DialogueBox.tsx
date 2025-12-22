@@ -49,7 +49,7 @@ export function DialogueBox({body, click, setClick, numDialogues}: DialogueBoxPr
       whiteSpace: "pre-line",
       textAlign: "left",
       lineHeight:"1.5",
-      fontSize: "clamp(1px, 5vw, 30px)",
+      fontSize: "clamp(10px, 2.5cqw, 300px)",
       color: "rgb(45, 19, 4)",
     //   backgroundColor:"red",
     }}
