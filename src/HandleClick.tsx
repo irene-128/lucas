@@ -20,6 +20,7 @@ export function HandleClick({ setClick, click , numDialogues }:HandleClickProps)
     const [dialogue6, setDialogue6] = useState(0);
     const [dialogue7, setDialogue7] = useState(0);
     const [dialogue8, setDialogue8] = useState(0);
+    const [dialogue9, setDialogue9] = useState(0);
 
     useEffect(() => {
         if (click === 1) {
@@ -31,6 +32,7 @@ export function HandleClick({ setClick, click , numDialogues }:HandleClickProps)
             setDialogue6(0);
             setDialogue7(0);
             setDialogue8(0);
+            setDialogue9(0);
 
             setDialogue1(1);
             
@@ -45,6 +47,7 @@ export function HandleClick({ setClick, click , numDialogues }:HandleClickProps)
             setDialogue6(0);
             setDialogue7(0);
             setDialogue8(0);
+            setDialogue9(0);
 
             setDialogue2(1);
 
@@ -60,6 +63,7 @@ export function HandleClick({ setClick, click , numDialogues }:HandleClickProps)
             setDialogue6(0);
             setDialogue7(0);
             setDialogue8(0);
+            setDialogue9(0);
 
             setDialogue3(1);
 
@@ -74,6 +78,7 @@ export function HandleClick({ setClick, click , numDialogues }:HandleClickProps)
             setDialogue6(0);
             setDialogue7(0);
             setDialogue8(0);
+            setDialogue9(0);
 
             setDialogue4(1);
 
@@ -89,6 +94,7 @@ export function HandleClick({ setClick, click , numDialogues }:HandleClickProps)
             setDialogue6(0);
             setDialogue7(0);
             setDialogue8(0);
+            setDialogue9(0);
 
             setDialogue5(1);
 
@@ -103,6 +109,7 @@ export function HandleClick({ setClick, click , numDialogues }:HandleClickProps)
             setDialogue6(0);
             setDialogue7(0);
             setDialogue8(0);
+            setDialogue9(0);
 
             setDialogue6(1);
 
@@ -117,6 +124,7 @@ export function HandleClick({ setClick, click , numDialogues }:HandleClickProps)
             setDialogue6(0);
             setDialogue7(0);
             setDialogue8(0);
+            setDialogue9(0);
 
             setDialogue7(1);
 
@@ -130,8 +138,24 @@ export function HandleClick({ setClick, click , numDialogues }:HandleClickProps)
             setDialogue6(0);
             setDialogue7(0);
             setDialogue8(0);
+            setDialogue9(0);
 
             setDialogue8(1);
+
+        }
+
+        if (click === 9) {
+            setDialogue1(0);
+            setDialogue2(0);
+            setDialogue3(0);
+            setDialogue4(0);
+            setDialogue5(0);
+            setDialogue6(0);
+            setDialogue7(0);
+            setDialogue8(0);
+            setDialogue9(0);
+
+            setDialogue9(1);
 
         }
 
@@ -147,6 +171,7 @@ export function HandleClick({ setClick, click , numDialogues }:HandleClickProps)
             {dialogue6 && (<DialogueBox body = {DS.page6} setClick={setClick} click={click} numDialogues={numDialogues}/>)}
             {dialogue7 && (<DialogueBox body = {DS.page7} setClick={setClick} click={click} numDialogues={numDialogues}/>)}
             {dialogue8 && (<DialogueBox body = {DS.page8} setClick={setClick} click={click} numDialogues={numDialogues}/>)}
+            {dialogue9 && (<DialogueBox body = {DS.page9} setClick={setClick} click={click} numDialogues={numDialogues}/>)}
         </>
     )
 }

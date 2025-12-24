@@ -15,7 +15,7 @@ import { BeginButton } from './components/BeginButton';
 function App() {
 
   const [click1, setClick1] = useState(0)
-  const numDialogues = 8;
+  const numDialogues = 9
 
   return (
     <>
