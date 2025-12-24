@@ -43,7 +43,7 @@ export function DialogueBox({body, click, setClick, numDialogues}: DialogueBoxPr
       position: "relative", // important: buttons are positioned relative to this
       width: "100%",
       height: "100%",
-      padding: "50px",
+      padding: "3.7vw",
       boxSizing: "border-box",
       fontFamily: "'Jersey 10', consolas",
       whiteSpace: "pre-line",
